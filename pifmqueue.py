@@ -1,4 +1,6 @@
+#Written by Alex I. Ramirez @alexram1313
 #Python 3!!!!!!
+
 import subprocess
 import _thread
 
