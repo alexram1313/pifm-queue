@@ -56,7 +56,8 @@ class PiFmQueue:
     '''
     def _manage_queue(self):
         while (len(self._queue) > 0):
-            self._play_sound(self._queue.pop(0))
+            self._play_sound(self._queue[0])
+            self._queue.pop(0)
             
 
 if __name__ == '__main__':
