@@ -71,6 +71,6 @@ if __name__ == '__main__':
             except Exception as ex:
                 print(ex)
         elif (selection == 'V'):
-            oifm.print_queue()
+            pifm.print_queue()
         else:
             print("invalid input")
